@@ -45,10 +45,14 @@ addTextBtn.addEventListener('click', function() {
     textContainer.appendChild(newParagraph);
 });*/
 
-const notas = [6, 8, 7];
+const notas = [6, 8, 7]; // Variável que armazena as notas de um aluno
 
-console.log("Notas do aluno: ");
+function apresentarNotasdoAluno(notas){//Função para apresentar na tela as notas do aluno
+    console.log("Notas do aluno: ");
 
-for(let nota of notas){
-    console.log("Nota", notas.indexOf(nota),"=", nota);
+    for(let nota of notas){ // Esta estrutura de repetição faz com que o array de notas seja percorrido
+            console.log("Nota", notas.indexOf(nota) + 1,"=", nota);
+    }
 }
+
+apresentarNotasdoAluno(notas); // Linha para chamar a função e assim as notas do aluno serem apresentadas
