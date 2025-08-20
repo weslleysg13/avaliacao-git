@@ -1,0 +1,12 @@
+commit b5627b57fde37474b4cd4348c8219b3bc51e09b4 (HEAD -> main, origin/main, origin/HEAD)
+Author: Weslley SG <42002498+weslleysg13@users.noreply.github.com>
+Date:   Wed Aug 20 15:51:18 2025 -0300
+
+    6 - Alterando o title do index.html e inserindo o meu nome
+
+commit dc1be241ad016ed5c87f2bf7e058f5207bf12e1c
+Merge: 0ff77a1 bea6a03
+Author: Weslley SG <42002498+weslleysg13@users.noreply.github.com>
+Date:   Wed Aug 20 15:48:59 2025 -0300
+
+    Merge pull request #2 from weslleysg13/alteracao-02
