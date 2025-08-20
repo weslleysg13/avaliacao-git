@@ -1,4 +1,4 @@
-const moveBtn = document.getElementById('moveBtn');
+/*const moveBtn = document.getElementById('moveBtn');
 
 // Adiciona um "ouvinte de eventos" que dispara uma função quando o mouse passa por cima
 moveBtn.addEventListener('mouseover', function() {
@@ -43,4 +43,12 @@ addTextBtn.addEventListener('click', function() {
 
     // Adiciona o novo parágrafo como um "filho" do contêiner de texto
     textContainer.appendChild(newParagraph);
-});
+});*/
+
+const notas = [6, 8, 7];
+
+console.log("Notas do aluno: ");
+
+for(let nota of notas){
+    console.log("Nota", notas.indexOf(nota),"=", nota);
+}
